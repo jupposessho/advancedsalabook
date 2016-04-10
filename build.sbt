@@ -18,6 +18,7 @@ scalacOptions ++= Seq(
 libraryDependencies ++= {
   val scalaTestV  = "3.0.0-M15"
   Seq(
-    "org.scalatest"         %% "scalatest"                         % scalaTestV % "test"
+    "org.typelevel" %% "cats"      % "0.4.1",
+    "org.scalatest" %% "scalatest" % scalaTestV % "test"
     )
 }
