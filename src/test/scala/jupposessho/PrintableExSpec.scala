@@ -1,9 +1,9 @@
 package jupposessho
 
 import org.scalatest.{Matchers, WordSpec}
-import PrintableEx.PrintDefaults._
-import PrintableEx.Print._
-import PrintableEx.Cat
+import PrintDefaults._
+import Print._
+import cat._
 
 class SuiteResolverResponseSpec  extends WordSpec with Matchers {
   "Printable" should {

@@ -1,4 +1,4 @@
-name         := "advancedakkabook"
+name         := "advancedscalabook"
 organization := "waff"
 version      := "1.0"
 scalaVersion := "2.11.8"
