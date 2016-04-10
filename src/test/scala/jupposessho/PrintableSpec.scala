@@ -2,7 +2,7 @@ package jupposessho
 
 import org.scalatest.{Matchers, WordSpec}
 import PrintDefaults._
-import Print._
+import PrintSyntax._
 import cat._
 
 class SuiteResolverResponseSpec  extends WordSpec with Matchers {
