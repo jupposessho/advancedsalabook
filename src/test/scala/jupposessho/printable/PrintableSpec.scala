@@ -5,7 +5,7 @@ import PrintDefaults._
 import PrintSyntax._
 import cat._
 
-class SuiteResolverResponseSpec  extends WordSpec with Matchers {
+class PrintableSpec  extends WordSpec with Matchers {
   "Printable" should {
     "format a string" in {
       "hello".formatP shouldEqual "hello"
