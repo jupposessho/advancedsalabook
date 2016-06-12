@@ -19,7 +19,7 @@ object Monoids {
 		def empty = Set.empty[T]
 	}	
 
-	implicit def setIntersectSemigrouo[T] = new Semigroup[Set[T]] {
+	implicit def setIntersectSemigroup[T] = new Semigroup[Set[T]] {
 		def combine(a: Set[T], b: Set[T]) = a intersect b
 	}
 
