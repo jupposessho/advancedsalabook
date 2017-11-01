@@ -1,8 +1,8 @@
-package jupposessho.show
+package waff.show
 
-import cats._, cats.std.all._, cats.syntax.show._
+import cats._, cats.instances.all._, cats.syntax.show._
 import cats._
-import cats.std.all._
+import cats.instances.all._
 import cats.syntax.show._
 	
 object cat {

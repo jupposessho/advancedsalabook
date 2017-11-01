@@ -1,4 +1,4 @@
-package jupposessho.eq
+package waff.eq
 
 import cats._
 import cats.Eq
@@ -9,14 +9,14 @@ object cat {
 
   object Cat {
     implicit val catEqual = Eq.instance[Cat] { (cat1, cat2) => 
-    	import cats.std.int._
-		import cats.std.string._
-		import cats.std.option._
+    	import cats.instances.int._
+		  import cats.instances.string._
+		  import cats.instances.option._
 
     	(cat1.name === cat2.name) &&
     	(cat1.age === cat2.age) &&
     	(cat1.owner === cat2.owner)
-	}
+	  }
   }
 }
 import cat._

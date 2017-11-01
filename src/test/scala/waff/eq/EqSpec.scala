@@ -1,4 +1,4 @@
-package jupposessho.eq
+package waff.eq
 
 import org.scalatest.{Matchers, WordSpec}
 import cat._

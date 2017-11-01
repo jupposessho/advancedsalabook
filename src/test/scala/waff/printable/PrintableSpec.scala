@@ -1,4 +1,4 @@
-package jupposessho.printable
+package waff.printable
 
 import org.scalatest.{Matchers, WordSpec}
 import PrintDefaults._

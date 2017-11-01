@@ -1,4 +1,4 @@
-package jupposessho.printable
+package waff.printable
 
 trait Printable[A] {
   def format(a: A): String
