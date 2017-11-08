@@ -2,7 +2,6 @@ package waff.monoid
 
 import cats.{Semigroup, Monoid}
 import cats.syntax.semigroup._
-import shapeless._
 
 object Monoids {
 	implicit val booleanAndMonoid = new Monoid[Boolean] {
@@ -36,6 +35,9 @@ object Monoids {
 	}
 
 	object generic {
+		
+		import shapeless._
+
 		final case class Foo(i: Int, s: String, d: Double, b: Boolean)
 		final case class Bar(s: String, b: Boolean)
 
